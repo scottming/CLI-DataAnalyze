@@ -1,0 +1,410 @@
+  1. customer
+	<class 'int'>
+	Nulls: False
+	Min: 1000001
+	Max: 1099988
+	Sum: 10499737651
+	Mean: 1049973.7651
+	Median: 1049833.0
+	Standard Deviation: 28796.97099308053
+	Unique values: 10000
+  2.  age
+	<class 'int'>
+	Nulls: False
+	Min: 0
+	Max: 98
+	Sum: 303184
+	Mean: 30.3184
+	Median: 34.0
+	Standard Deviation: 22.15756803983642
+	Unique values: 40
+	5 most frequent values:
+		0:	2942
+		44:	430
+		50:	423
+		46:	390
+		38:	386
+  3.  occupation
+	<class 'str'>
+	Nulls: True
+	Unique values: 7
+	5 most frequent values:
+		professional:	1705
+		crafts:	274
+		clerical:	210
+		self-employed:	181
+		retired:	133
+	Max length: 13
+  4.  regionType
+	<class 'str'>
+	Nulls: True
+	Unique values: 7
+	5 most frequent values:
+		suburban:	3085
+		town:	1483
+		rural:	491
+		unknown:	83
+		s:	55
+	Max length: 8
+  5. marriageStatus
+	<class 'str'>
+	Nulls: False
+	Values: no, unknown, yes
+  6.  children
+	<class 'bool'>
+	Nulls: False
+	Unique values: 2
+	5 most frequent values:
+		False:	7559
+		True:	2441
+  7.  income
+	<class 'int'>
+	Nulls: False
+	Min: 0
+	Max: 9
+	Sum: 42936
+	Mean: 4.2936
+	Median: 5.0
+	Standard Deviation: 3.1397450597140746
+	Unique values: 10
+	5 most frequent values:
+		0:	2555
+		6:	1950
+		7:	1159
+		9:	1037
+		5:	807
+  8. numHandsets
+	<class 'int'>
+	Nulls: False
+	Min: 1
+	Max: 21
+	Sum: 18045
+	Mean: 1.8045
+	Median: 1.0
+	Standard Deviation: 1.3450203530058435
+	Unique values: 19
+	5 most frequent values:
+		1:	5674
+		2:	2451
+		3:	1034
+		4:	426
+		5:	191
+  9. handsetAge
+	<class 'int'>
+	Nulls: False
+	Min: -5
+	Max: 1812
+	Sum: 3901717
+	Mean: 390.1717
+	Median: 339.0
+	Standard Deviation: 257.0638022342121
+	Unique values: 1179
+	5 most frequent values:
+		310:	42
+		334:	35
+		313:	34
+		319:	33
+		185:	31
+ 10. smartPhone
+	<class 'bool'>
+	Nulls: False
+	Unique values: 2
+	5 most frequent values:
+		True:	9015
+		False:	985
+ 11. currentHandsetPrice
+	<class 'float'>
+	Nulls: False
+	Min: 0.0
+	Max: 499.99
+	Sum: 357306.95999998966
+	Mean: 35.730695999998964
+	Median: 0.0
+	Standard Deviation: 57.07006839312305
+	Unique values: 16
+	5 most frequent values:
+		0.0:	5696
+		29.99:	1389
+		149.99:	779
+		129.99:	432
+		79.99:	391
+ 12.  creditRating
+	<class 'str'>
+	Nulls: False
+	Unique values: 7
+	5 most frequent values:
+		B:	3785
+		C:	1713
+		A:	1695
+		E:	1175
+		D:	979
+	Max length: 1
+ 13. homeOwner
+	<class 'bool'>
+	Nulls: False
+	Unique values: 2
+	5 most frequent values:
+		False:	6577
+		True:	3423
+ 14.  creditCard
+	<class 'bool'>
+	Nulls: False
+	Unique values: 2
+	5 most frequent values:
+		True:	6693
+		False:	3307
+ 15. avgBill
+	<class 'float'>
+	Nulls: False
+	Min: 0.0
+	Max: 584.23
+	Sum: 589275.9999999993
+	Mean: 58.92759999999993
+	Median: 49.205
+	Standard Deviation: 43.88762076576941
+	Unique values: 5588
+	5 most frequent values:
+		29.99:	200
+		34.99:	156
+		10.0:	111
+		30.0:	83
+		49.99:	82
+ 16. avgMins
+	<class 'float'>
+	Nulls: False
+	Min: 0.0
+	Max: 6336.25
+	Sum: 5211706.45
+	Mean: 521.170645
+	Median: 359.625
+	Standard Deviation: 540.4082628915048
+	Unique values: 4461
+	5 most frequent values:
+		0.0:	192
+		0.25:	15
+		114.75:	10
+		0.75:	10
+		18.0:	10
+ 17. avgrecurringCharge
+	<class 'float'>
+	Nulls: False
+	Min: 0.0
+	Max: 337.98
+	Sum: 462365.36999996915
+	Mean: 46.236536999996915
+	Median: 44.99
+	Standard Deviation: 23.963762131135177
+	Unique values: 1380
+	5 most frequent values:
+		44.99:	1155
+		29.99:	878
+		59.99:	813
+		39.99:	754
+		10.0:	601
+ 18. avgOverBundleMins
+	<class 'float'>
+	Nulls: False
+	Min: 0.0
+	Max: 4320.75
+	Sum: 423926.7
+	Mean: 42.39267
+	Median: 3.0
+	Standard Deviation: 106.3690552582426
+	Unique values: 1154
+	5 most frequent values:
+		0.0:	4236
+		0.25:	196
+		0.5:	99
+		0.75:	83
+		1.0:	66
+ 19. avgRoamCalls
+	<class 'float'>
+	Nulls: False
+	Min: 0.0
+	Max: 177.99
+	Sum: 11860.48
+	Mean: 1.186048
+	Median: 0.0
+	Standard Deviation: 6.0485090395647
+	Unique values: 850
+	5 most frequent values:
+		0.0:	6859
+		0.1:	279
+		0.2:	146
+		0.16:	113
+		0.29:	84
+ 20. callMinutesChangePct
+	<class 'float'>
+	Nulls: False
+	Min: -50.355
+	Max: 50.425
+	Sum: -2808.4756000000384
+	Mean: -0.2808475600000038
+	Median: -0.1
+	Standard Deviation: 5.230769368467575
+	Unique values: 3227
+	5 most frequent values:
+		0.0:	257
+		-0.005:	29
+		-0.04:	24
+		-0.02:	22
+		-0.045:	21
+ 21. billAmountChangePct
+	<class 'float'>
+	Nulls: False
+	Min: -7.6004
+	Max: 17.9114
+	Sum: -35.95040000002292
+	Mean: -0.003595040000002292
+	Median: -0.0052
+	Standard Deviation: 0.7629167741289999
+	Unique values: 4639
+	5 most frequent values:
+		0.0:	1169
+		-0.005:	188
+		-0.0054:	115
+		-0.01:	62
+		0.0148:	57
+ 22. avgReceivedMins
+	<class 'float'>
+	Nulls: False
+	Min: 0.0
+	Max: 2006.29
+	Sum: 1152666.1899999995
+	Mean: 115.26661899999995
+	Median: 52.540000000000006
+	Standard Deviation: 169.97094362690015
+	Unique values: 7103
+	5 most frequent values:
+		0.0:	1260
+		0.17:	10
+		0.41:	9
+		0.74:	8
+		0.33:	8
+ 23. avgOutCalls
+	<class 'float'>
+	Nulls: False
+	Min: 0.0
+	Max: 610.33
+	Sum: 252088.34
+	Mean: 25.208834
+	Median: 13.33
+	Standard Deviation: 35.663930545586766
+	Unique values: 524
+	5 most frequent values:
+		0.0:	1309
+		0.33:	183
+		0.67:	178
+		1.0:	154
+		1.67:	133
+ 24. avgInCalls
+	<class 'float'>
+	Nulls: False
+	Min: 0.0
+	Max: 304.0
+	Sum: 83680.29000000004
+	Mean: 8.368029000000003
+	Median: 2.0
+	Standard Deviation: 17.67596360669365
+	Unique values: 310
+	5 most frequent values:
+		0.0:	2974
+		0.33:	606
+		0.67:	462
+		1.0:	352
+		1.33:	296
+ 25. peakOffPeakRatio
+	<class 'float'>
+	Nulls: False
+	Min: 0.0
+	Max: 160.0
+	Sum: 22177.854934757972
+	Mean: 2.2177854934757972
+	Median: 1.3998736975
+	Standard Deviation: 3.882519976393226
+	Unique values: 8307
+	5 most frequent values:
+		0.0:	875
+		1.0:	65
+		0.33:	25
+		2.0:	24
+		3.0:	14
+ 26. peakOffPeakRatioChangePct
+	<class 'float'>
+	Nulls: False
+	Min: -41.32273582
+	Max: 37.77974299
+	Sum: -467.4862251001005
+	Mean: -0.04674862251001005
+	Median: 0.0116073125
+	Standard Deviation: 9.973346946615246
+	Unique values: 10000
+ 27. avgDroppedCalls
+	<class 'float'>
+	Nulls: False
+	Min: 0.0
+	Max: 304.67
+	Sum: 99922.82999999993
+	Mean: 9.992282999999993
+	Median: 5.33
+	Standard Deviation: 14.858419400390769
+	Unique values: 278
+	5 most frequent values:
+		0.0:	1187
+		2.0:	307
+		1.33:	304
+		0.67:	291
+		0.33:	285
+ 28. lifeTime
+	<class 'int'>
+	Nulls: False
+	Min: 6
+	Max: 61
+	Sum: 188363
+	Mean: 18.8363
+	Median: 17.0
+	Standard Deviation: 9.610447560337644
+	Unique values: 56
+	5 most frequent values:
+		11:	807
+		12:	606
+		13:	560
+		7:	491
+		14:	470
+ 29. lastMonthCustomerCareCalls
+	<class 'float'>
+	Nulls: False
+	Min: 0.0
+	Max: 365.67
+	Sum: 17374.14
+	Mean: 1.737414
+	Median: 0.0
+	Standard Deviation: 5.7542766628485795
+	Unique values: 109
+	5 most frequent values:
+		0.0:	5621
+		0.33:	725
+		0.67:	530
+		1.0:	352
+		1.33:	313
+ 30. numRetentionCalls
+	<class 'int'>
+	Nulls: False
+	Values: 0, 1, 2, 3, 4
+ 31. numRetentionOffersAccepted
+	<class 'int'>
+	Nulls: False
+	Values: 0, 1, 2, 3, 4
+ 32. newFrequentNumbers
+	<class 'int'>
+	Nulls: False
+	Values: 0, 1, 2, 3
+ 33. churn
+	<class 'bool'>
+	Nulls: False
+	Unique values: 2
+	5 most frequent values:
+		True:	5000
+		False:	5000
+
+Row count: 10000
